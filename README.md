@@ -34,6 +34,8 @@ notebooks JupyterLab.
 - Breadboard
 - Fils Dupont
 - Câbles micro-USB - USB A
+- Terrarium
+- 3 Calathea makoyana "bébés" (pour la nyctinastie et donc mouvements importants)
 
 ## Licence
 
