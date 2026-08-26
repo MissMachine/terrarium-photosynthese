@@ -1,3 +1,41 @@
+"""
+Logger série OneBoard → CSV
+
+Rôle
+----
+Ce script lit un flux de mesures texte disponible sur un port série,
+en extrait les valeurs CO2, luminosité, température et humidité,
+puis les enregistre périodiquement dans un fichier CSV.
+
+Il accepte plusieurs formats de lignes afin de faciliter l'exploitation
+des données reçues.
+
+Ce script concerne uniquement :
+    port série → décodage des mesures → CSV
+
+Il ne gère pas :
+    - la lecture directe des capteurs ;
+    - une communication Wi-Fi ou UDP ;
+    - un ESP32 ;
+    - un affichage OLED.
+
+Paramètres à adapter
+--------------------
+PORT         : port série utilisé par la carte
+BAUD         : vitesse de communication série
+INTERVAL_MIN : intervalle entre deux écritures CSV
+OUT_CSV      : nom ou chemin du fichier CSV
+
+Historique
+----------
+Ce script correspond à une étape antérieure du dispositif de
+photosynthèse, utilisant une récupération des mesures par liaison série.
+"""
+
+
+###########################################################################
+
+
 import csv
 import os
 import re
