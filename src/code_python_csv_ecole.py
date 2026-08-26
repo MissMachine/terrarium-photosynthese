@@ -1,3 +1,17 @@
+"""
+Code Python utilisé dans l'architecture Wi-Fi du terrarium.
+
+Il reçoit les données déjà transmises par la carte OneBoard via le réseau,
+les décode puis les enregistre dans un fichier CSV.
+
+La communication OneBoard ↔ ESP32 et l'affichage OLED sont gérés
+par les codes embarqués sur les microcontrôleurs.
+"""
+
+
+#####################################################################
+
+
 import csv
 import socket
 from datetime import datetime
