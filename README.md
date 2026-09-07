@@ -19,7 +19,7 @@ notebooks JupyterLab.
 ## Contenu du dépôt
 
 - `arduino/` : code Arduino
-- `notebooks/` : analyse et interprétation (JupyterLab)
+- `notebooks/` : analyse et interprétation (JupyterLab et Marimo)
 - `src/` : fonctions Python réutilisables
 - `data/` : données brutes et traitées en CSV
 - `figures/` : graphiques et schémas
